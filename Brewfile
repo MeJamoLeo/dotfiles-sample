@@ -9,14 +9,15 @@ tap "homebrew/core"
 # ================================================
 brew "anyenv"
 brew "bat"
-brew "docker"
 brew "exa"
 brew "git"
-brew "mas"
 brew "postgresql"
-brew "tig"
 brew "vim"
 brew "heroku/brew/heroku"
+
+# brew "mas"
+# brew "docker"
+# brew "tig"
 
 
 # ================================================
@@ -43,4 +44,4 @@ cask "sourcetree"
 # ================================================
 # MacOSアプリケーション
 # ================================================
-mas "Git Streaks", id: 1525795950
+# mas "Git Streaks", id: 1525795950
