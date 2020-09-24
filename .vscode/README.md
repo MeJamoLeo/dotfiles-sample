@@ -1,6 +1,6 @@
 # 使い方
 
-最初
+最初<br>
 ※ **code**コマンドを使うので VScode から使用できるようにする.
 [参考リンク](https://qiita.com/naru0504/items/c2ed8869ffbf7682cf5c)
 
@@ -10,7 +10,9 @@ $ vscode_install.sh
 ```
 
 
-Vscodeの拡張機能が増えてきたら行う
+VScodeの拡張機能が増えてきたら以下のコマンドで
+拡張機能リストのファイルを更新する．
+
 ```sh
 code --list-extensions > extensions
 ```
