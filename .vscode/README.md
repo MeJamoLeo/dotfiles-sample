@@ -5,8 +5,10 @@
 [参考リンク](https://qiita.com/naru0504/items/c2ed8869ffbf7682cf5c)
 
 ```sh
-$ git clone "このレポジトリ"
-$ vscode_install.sh
+$ cd ~/
+# 実行権限を与える
+$ chmod 755 dotfiles/.vscode/vscode_install
+$ dotfiles/.vscode/vscode_install.sh
 ```
 
 
